@@ -16,7 +16,7 @@ class Solution(object):
         current = head
             
         while list1 and list2:
-            print(head)
+            # print(head)
             if list1.val < list2.val:
                 current.next = list1
                 current = current.next
