@@ -7,29 +7,23 @@ class Solution(object):
         """
 
         stack = deque()
+        check = {")":"(", "]":"[","}":"{"}
         
         for i in range(len(s)):
             current = s[i]
+            # print(current)
             if current == "(" or current == "[" or current == "{":
                 stack.append(current)
             if current == ")" or current == "]" or current == "}":
-                if len(stack) == 0:
-                    return False
-                elif current == ")":
-                    if stack[-1] == "(":
-                        stack.pop()
-                    else:
-                        return False
-                elif current == "]":
-                    if stack[-1] == "[":
+                if len(stack) != 0:
+                    if check[current] == stack[-1]:
                         stack.pop()
                     else:
                         return False
                 else:
-                    if stack[-1] == "{":
-                        stack.pop()
-                    else:
-                        return False
+                    return False
+        
+        # print("pass")
         if len(stack) == 0:
             return True
         else:
