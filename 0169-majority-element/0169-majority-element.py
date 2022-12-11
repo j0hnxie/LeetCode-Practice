@@ -10,12 +10,5 @@ class Solution(object):
         
         for i in nums:
             numbers[i] += 1
-            
-        result = 0
-        resultTracker = 0
-        for keys, values in numbers.items():
-            if values > result:
-                result = values
-                resultTracker = keys
-            
-        return resultTracker
+            if numbers[i] > (len(nums) / 2):
+                return i
