@@ -6,16 +6,25 @@ class Solution(object):
         :rtype: bool
         """
         
-        sSorted = sorted(s)
-        tSorted = sorted(t)
         
-        if sSorted != tSorted:
-            return False
-        else:
-            return True
+        sDict = collections.defaultdict(int)
+        tDict = collections.defaultdict(int)
         
-#         sDict = {}
-#         tDict = {}
+        for i in s:
+            sDict[i] += 1
+        
+        for i in t:
+            tDict[i] += 1
+            
+        for keys, values in sDict.items():
+            if sDict[keys] != tDict[keys]:
+                return False
+            
+        for keys, values in tDict.items():
+            if sDict[keys] != tDict[keys]:
+                return False
+            
+        return True
         
 #         for i in range(128):
 #             sDict[chr(i)] = 0
