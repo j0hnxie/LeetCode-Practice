@@ -22,7 +22,7 @@ class Solution(object):
             if abs(leftHeight - rightHeight) > 1:
                 tf = False
             
-            print(str(root.val) + " " + str(tf) + " " + str(leftHeight) + " " + str(rightHeight))
+            # print(str(root.val) + " " + str(tf) + " " + str(leftHeight) + " " + str(rightHeight))
             return height, tf
         
         heightResult, tfResult = heightFind(self, root)
