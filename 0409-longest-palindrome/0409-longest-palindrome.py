@@ -5,19 +5,18 @@ class Solution(object):
         :rtype: int
         """
         
-        dictionary = collections.defaultdict(int)
-        result = 0
-
-        for i in s:
-            dictionary[i] += 1
-            if dictionary[i] == 2:
-                dictionary[i] = 0
-                result += 2
-            
-        if result < len(s):
-            result += 1
+        sets = set()
         
-        return result
+        for i in s:
+            if i in sets:
+                sets.remove(i)
+            else:
+                sets.add(i)
+            
+        if len(sets) != 0:
+            return len(s) - len(sets) + 1
+        else:
+            return len(s)
         
         
         
