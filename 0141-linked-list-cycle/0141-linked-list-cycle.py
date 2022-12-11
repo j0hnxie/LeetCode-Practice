@@ -11,16 +11,17 @@ class Solution(object):
         :rtype: bool
         """
         
-        def cycleHelper(self, head, visited):
-            # print(head.val)
-            if not head:
-                return False
-            elif head in visited:
+        if not head:
+            return False
+        
+        fast = head.next
+        slow = head
+        while fast and fast.next:
+            if fast == slow:
                 return True
             
-            visited.add(head)
-            return cycleHelper(self, head.next, visited)
-        
-        visit = set()
-        return cycleHelper(self, head, visit)
+            slow = slow.next
+            fast = fast.next.next
+            
+        return False
             
