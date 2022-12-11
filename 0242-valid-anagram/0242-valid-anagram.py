@@ -8,20 +8,15 @@ class Solution(object):
         
         
         sDict = collections.defaultdict(int)
-        tDict = collections.defaultdict(int)
         
         for i in s:
             sDict[i] += 1
         
         for i in t:
-            tDict[i] += 1
+            sDict[i] -= 1
             
         for keys, values in sDict.items():
-            if sDict[keys] != tDict[keys]:
-                return False
-            
-        for keys, values in tDict.items():
-            if sDict[keys] != tDict[keys]:
+            if sDict[keys] != 0:
                 return False
             
         return True
