@@ -10,15 +10,11 @@ class Solution(object):
         :rtype: ListNode
         """
         
-        totalLen = 0
-        temp = head
-        while temp:
-            temp = temp.next
-            totalLen += 1
-            
-            
-        # print(totalLen / 2 + 1)
-        for i in range(totalLen / 2):
-            head = head.next
+        fast = head
+        slow = head
         
-        return head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+            
+        return slow
