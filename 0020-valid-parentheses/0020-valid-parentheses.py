@@ -6,27 +6,13 @@ class Solution(object):
         :rtype: bool
         """
 
-        stack = deque()
-        check = {")":"(", "]":"[","}":"{"}
-        
-        for i in range(len(s)):
-            current = s[i]
-            # print(current)
-            if current == "(" or current == "[" or current == "{":
-                stack.append(current)
-            if current == ")" or current == "]" or current == "}":
-                if len(stack) != 0:
-                    if check[current] == stack[-1]:
-                        stack.pop()
-                    else:
-                        return False
-                else:
-                    return False
-        
-        # print("pass")
-        if len(stack) == 0:
-            return True
-        else:
-            return False
+        d = {'(':')', '{':'}','[':']'}
+        stack = []
+        for i in s:
+            if i in d:  # 1
+                stack.append(i)
+            elif len(stack) == 0 or d[stack.pop()] != i:  # 2
+                return False
+        return len(stack) == 0 # 3
                 
         
