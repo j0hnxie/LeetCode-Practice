@@ -13,15 +13,11 @@ class Solution(object):
         if not head:
             return head
         
-        dp = []
-        temp = head
-        while temp:
-            dp.append(temp)
-            temp = temp.next
-        
-        for i in range(len(dp) - 2, -1, -1):
-            # print(i)
-            dp[i + 1].next = dp[i]
-        
-        head.next = None
-        return dp[-1]
+        prev = None
+        while head:
+            cur = head
+            head = head.next
+            cur.next = prev
+            prev = cur
+            
+        return prev
