@@ -14,23 +14,13 @@ class Solution(object):
         :rtype: TreeNode
         """
         
-        def lowHelper(self, rootNode, start, end):
-            # print(str(rootNode.val) + " " + str(start.val) + " " + str(end.val))
-            if rootNode.val <= end.val and rootNode.val >= start.val:
-                return rootNode
-            elif rootNode.val > end.val:
-                return lowHelper(self, rootNode.left, start, end)
-            elif rootNode.val < start.val:
-                return lowHelper(self, rootNode.right, start, end)
-            else:
-                print("error")
-                
-        if p.val < q.val:
-            low = p
-            high = q
-        else:
-            low = q
-            high = p
+        # if not root:
+        #     return root
         
-        return lowHelper(self, root, low, high)
+        if root.val < p.val and root.val < q.val:
+            return self.lowestCommonAncestor(root.right, p, q)
+        elif root.val > p.val and root.val > q.val:
+            return self.lowestCommonAncestor(root.left, p, q)
+        else:
+            return root
             
