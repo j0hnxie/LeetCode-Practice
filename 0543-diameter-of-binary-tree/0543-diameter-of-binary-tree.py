@@ -16,19 +16,16 @@ class Solution(object):
         def height(rootNode):
             if not rootNode:
                 return 0
-            print(rootNode.val)
+            # print(rootNode.val)
             
             rightHeight = height(rootNode.right)
             leftHeight = height(rootNode.left)
             
             finalHeight = max(leftHeight, rightHeight) + 1
-            
-            if leftHeight + rightHeight > self.diam:
-                self.diam = leftHeight + rightHeight
+            self.diam = max(self.diam, leftHeight + rightHeight)
             
             return finalHeight
         
-        if height(root.left) + height(root.right) > self.diam:
-            self.diam = height(root.left) + height(root.right)
+        height(root)
         
         return self.diam
