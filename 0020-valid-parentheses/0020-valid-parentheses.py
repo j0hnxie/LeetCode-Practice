@@ -5,14 +5,30 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-
-        d = {'(':')', '{':'}','[':']'}
-        stack = []
+        
+        stack = deque()
         for i in s:
-            if i in d:  # 1
+            if len(stack) == 0:
                 stack.append(i)
-            elif len(stack) == 0 or d[stack.pop()] != i:  # 2
-                return False
-        return len(stack) == 0 # 3
+            else:
+                if i == ")":
+                    if stack[-1] != "(":
+                        return False
+                    stack.pop()
+                elif i == "]":
+                    if stack[-1] != "[":
+                        return False
+                    stack.pop()
+                elif i == "}":
+                    if stack[-1] != "{":
+                        return False
+                    stack.pop()
+                else:
+                    stack.append(i)
+        
+        if len(stack) == 0:
+            return True
+        else:
+            return False
                 
         
