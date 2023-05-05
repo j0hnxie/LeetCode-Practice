@@ -4,11 +4,15 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
+        
+        left = 0
+        right = 1
         maxSoFar = 0
-        cur = 0
-        
-        for i in range(1, len(prices)):
-            cur = max(0, cur + prices[i] - prices[i - 1])
-            maxSoFar = max(cur, maxSoFar)
-        
+        while right < len(prices):
+            cur = prices[right] - prices[left]
+            maxSoFar = max(maxSoFar, cur)
+            if cur <= 0:
+                left = right
+            right += 1
+            
         return maxSoFar
