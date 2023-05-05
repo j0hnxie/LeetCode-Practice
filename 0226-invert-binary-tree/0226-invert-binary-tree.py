@@ -11,14 +11,19 @@ class Solution(object):
         :rtype: TreeNode
         """
         
-        if root == None:
-            return None
-        
-        self.invertTree(root.left)
-        self.invertTree(root.right)
-        
-        temp = root.left
-        root.left = root.right
-        root.right = temp
-        
+        stack = deque()
+        if root != None:
+            stack.append(root)
+        while stack:
+            top = stack.pop()
+            temp = top.left
+            top.left = top.right
+            top.right = temp
+            
+            if top.left != None:
+                stack.append(top.left)
+            if top.right != None:
+                stack.append(top.right)
+            
         return root
+        
