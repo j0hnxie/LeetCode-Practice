@@ -5,17 +5,16 @@ class Solution(object):
         :rtype: bool
         """
         
-        s.replace(" ", "")
-        s = re.sub(r'[^a-zA-Z0-9]', '', s)
+        left = 0
+        right = len(s) - 1
         s = s.upper()
-        i = 0
-        j = len(s) - 1
-        print(s)
-        while  i < j:
-            if s[i] != s[j]:
+        while left < right:
+            while not s[left].isalnum() and left < right:
+                left += 1
+            while not s[right].isalnum() and left < right:
+                right -= 1
+            if s[left] != s[right]:
                 return False
-            
-            i += 1
-            j -= 1
-            
+            left += 1
+            right -= 1
         return True
