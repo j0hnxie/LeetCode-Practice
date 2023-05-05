@@ -4,28 +4,11 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        # max_profit, min_price = 0, float('inf')
-        # for price in prices:
-        #     min_price = min(min_price, price)
-        #     profit = price - min_price
-        #     max_profit = max(max_profit, profit)
-        # return max_profit
+        maxSoFar = 0
+        cur = 0
         
-        curMax = 0
-        overallMax = 0
-        diff = list(prices)
         for i in range(1, len(prices)):
-            diff[i] = prices[i] - prices[i - 1]
-            
-        diff[0] = 0
-        # print(prices)
-        # print(diff)
+            cur = max(0, cur + prices[i] - prices[i - 1])
+            maxSoFar = max(cur, maxSoFar)
         
-        for i in range(len(diff)):
-            curMax += diff[i]
-            if curMax < 0:
-                curMax = 0
-            
-            overallMax = max(curMax, overallMax)
-        
-        return overallMax
+        return maxSoFar
