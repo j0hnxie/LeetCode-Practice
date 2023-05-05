@@ -5,14 +5,11 @@ class Solution(object):
         :rtype: int
         """
         
-        left = 0
-        right = 1
+        minPrice = prices[0]
         maxSoFar = 0
-        while right < len(prices):
-            cur = prices[right] - prices[left]
+        for i in prices:
+            minPrice = min(minPrice, i)
+            cur = i - minPrice
             maxSoFar = max(maxSoFar, cur)
-            if cur <= 0:
-                left = right
-            right += 1
             
         return maxSoFar
