@@ -14,11 +14,11 @@ class Solution(object):
         :rtype: TreeNode
         """
         
-        while root:
-            if root.val < p.val and root.val < q.val:
-                root = root.right
-            elif root.val > p.val and root.val > q.val:
-                root = root.left
+        check = root
+        while (check.val < p.val and check.val < q.val) or (check.val > p.val and check.val > q.val):
+            if check.val < p.val and check.val < q.val:
+                check = check.right
             else:
-                return root
-            
+                check = check.left
+        
+        return check
