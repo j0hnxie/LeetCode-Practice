@@ -17,8 +17,7 @@ class Solution(object):
         if compare == color:
             return image
         
-        while stack:
-            x, y = stack.pop()
+        def dfs(x, y):
             for xPlus, yPlus in directions:
                 newX = x + xPlus
                 newY = y + yPlus
@@ -27,6 +26,9 @@ class Solution(object):
                     
                 if image[newX][newY] == compare:
                     image[newX][newY] = color
-                    stack.append((newX, newY))
+                    dfs(newX, newY)
+            return
+        
+        dfs(sr, sc)
                     
         return image
