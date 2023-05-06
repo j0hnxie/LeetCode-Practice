@@ -8,33 +8,25 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+        stack = deque()
+        stack.append((sr, sc))
         compare = image[sr][sc]
-
+        image[sr][sc] = color
+        
         if compare == color:
             return image
-
-        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        visited = set()
-        visited.add((sr, sc))
-
-        def helperDFS(image, sr, sc, color, compareColor):
-            if image[sr][sc] == compareColor:
-                image[sr][sc] = color
-                visited.add((sr, sc))
-            else:
-                return image
-
-            
-            for direction in directions:
-                newR = sr + direction[0]
-                newC = sc + direction[1]
-
-                if newR >= 0 and newR < len(image) and newC >= 0 and newC < len(image[0]):
-                    if (newR, newC) not in visited:
-                        helperDFS(image, newR, newC, color, compareColor)
-            
-            return image
-
-        image = helperDFS(image, sr, sc, color, compare)
+        
+        while stack:
+            x, y = stack.pop()
+            for xPlus, yPlus in directions:
+                newX = x + xPlus
+                newY = y + yPlus
+                if newX < 0 or newX >= len(image) or newY < 0 or newY >= len(image[0]):
+                    continue
+                    
+                if image[newX][newY] == compare:
+                    image[newX][newY] = color
+                    stack.append((newX, newY))
+                    
         return image
-
