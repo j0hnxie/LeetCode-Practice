@@ -14,12 +14,15 @@ class Solution(object):
         def height(node):
             if node == None:
                 return 0
-            return max(height(node.left), height(node.right)) + 1
+            left = height(node.left)
+            right = height(node.right)
+            
+            if left == -1 or right == -1 or abs(left - right) > 1:
+                return -1
+            
+            return max(left, right) + 1
         
         if root == None:
             return True
         
-        if abs(height(root.left) - height(root.right)) > 1:
-            return False
-        
-        return self.isBalanced(root.left) and self.isBalanced(root.right)
+        return height(root) != -1
