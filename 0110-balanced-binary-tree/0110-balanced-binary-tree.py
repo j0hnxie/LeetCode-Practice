@@ -11,13 +11,30 @@ class Solution(object):
         :rtype: bool
         """
         
+#         stack = deque()
+        
+#         if root != None:
+#             stack.append(root)
+        
+#         while stack:
+            
+            
+            
+        
         def height(node):
             if node == None:
                 return 0
             left = height(node.left)
+            
+            if left == -1:
+                return -1
+            
             right = height(node.right)
             
-            if left == -1 or right == -1 or abs(left - right) > 1:
+            if right == -1:
+                return -1
+            
+            if abs(left - right) > 1:
                 return -1
             
             return max(left, right) + 1
