@@ -11,10 +11,8 @@ class Solution(object):
         :rtype: bool
         """
         
-        if head == None or head.next == None:
-            return False
     
-        fast = head.next.next
+        fast = head
         slow = head
         
         while fast != None and fast.next != None:
