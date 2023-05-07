@@ -22,7 +22,7 @@ class Solution(object):
             
             return max(left, right) + 1
         
-        if root == None:
-            return True
+        # if root == None:
+        #     return True
         
         return height(root) != -1
