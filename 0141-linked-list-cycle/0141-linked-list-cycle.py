@@ -15,7 +15,7 @@ class Solution(object):
             return False
     
         pointer1 = head
-        pointer2 = head.next
+        pointer2 = head.next.next
         
         while pointer1 != pointer2:
             if pointer1 != None:
