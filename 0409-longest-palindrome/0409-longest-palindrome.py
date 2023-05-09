@@ -5,18 +5,19 @@ class Solution(object):
         :rtype: int
         """
         
-        sets = set()
-        
+        result = 0
+        seen = set()
         for i in s:
-            if i in sets:
-                sets.remove(i)
+            if i in seen:
+                result += 2
+                seen.remove(i)
             else:
-                sets.add(i)
-            
-        if len(sets) != 0:
-            return len(s) - len(sets) + 1
+                seen.add(i)
+                
+        if seen:
+            return result + 1
         else:
-            return len(s)
+            return result
         
         
         
