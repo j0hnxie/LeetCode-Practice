@@ -10,18 +10,16 @@ class Solution(object):
         :rtype: ListNode
         """
         
-        stack = []
-        
-        if head:
-            stack.append(head)
         prev = None
-        while stack:
-            top = stack.pop()
+        if not head:
+            return head
+        
+        while head.next:
+            nextNode = head.next
+            head.next = prev
+            prev = head
+            head = nextNode
+        
+        head.next = prev
             
-            if top.next:
-                stack.append(top.next)
-            
-            top.next = prev
-            prev = top
-            
-        return prev
+        return head
