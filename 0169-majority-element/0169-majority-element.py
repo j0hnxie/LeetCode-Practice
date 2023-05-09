@@ -5,10 +5,15 @@ class Solution(object):
         :rtype: int
         """
         
-        numbers = collections.defaultdict(int)
-
         
+        counts = {}
+        n = len(nums)
+        n /= 2
         for i in nums:
-            numbers[i] += 1
-            if numbers[i] > (len(nums) / 2):
+            print(i)
+            cur = counts.get(i, 0)
+            counts[i] = cur + 1
+            if cur + 1 > n:
                 return i
+            
+        
