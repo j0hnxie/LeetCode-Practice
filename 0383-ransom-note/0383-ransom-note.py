@@ -6,6 +6,9 @@ class Solution(object):
         :rtype: bool
         """
         
+        if len(ransomNote) > len(magazine):
+            return False
+        
         chars = [0] * 26
         
         for i in magazine:
