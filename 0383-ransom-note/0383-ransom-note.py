@@ -6,15 +6,14 @@ class Solution(object):
         :rtype: bool
         """
         
-        letters = collections.defaultdict(int)
+        chars = [0] * 26
         
         for i in magazine:
-            letters[i] += 1
+            chars[ord(i) - 97] += 1
         
         for i in ransomNote:
-            letters[i] -= 1
-            if letters[i] < 0:
+            chars[ord(i) - 97] -= 1
+            if chars[ord(i) - 97] < 0:
                 return False
             
         return True
-            
