@@ -39,6 +39,5 @@ class Solution(object):
         
         # print(result)
         result = result[::-1]
-        result = [str(i) for i in result]
                 
-        return "".join(result)
+        return result
