@@ -6,28 +6,39 @@ class Solution(object):
         :rtype: str
         """
         
-        aInt = int(a, 2)
-        bInt = int(b, 2)
-        resultInt = aInt + bInt
-        result = bin(resultInt).replace("0b", "")
-        return result
+#         aInt = int(a, 2)
+#         bInt = int(b, 2)
+#         resultInt = aInt + bInt
+#         result = bin(resultInt).replace("0b", "")
+#         return result
         
-#         aLen = len(a)
-#         bLen = len(b)
-#         result = []
-#         nextOne = 0
+        aLen = len(a) - 1
+        bLen = len(b) - 1
+        result = ""
+        nextOne = 0
         
-#         while aLen >= 0 and bLen >= 0:
-#             aDigit = int(a[aLen])
-#             bDigit = int(b[bLen])
-#             digit = aDigit + bDigit
-            
-#             if nextOne:
-#                 digit += nextOne
+        while aLen >= 0 or bLen >= 0:
+            aDigit = 0
+            bDigit = 0
+            if aLen >= 0:
+                aDigit = int(a[aLen])
+                aLen -= 1
+            if bLen >= 0:
+                bDigit = int(b[bLen])
+                bLen -= 1
                 
-#             if digit > 1:
-                
+            digit = aDigit + bDigit
             
-#             result.append(digit % 2)
-#             aLen -= 1
-#             bLen -= 1
+            digit += nextOne
+                
+            result += str(digit % 2)
+            nextOne = digit / 2
+            
+        if nextOne:
+            result += str(nextOne)
+        
+        # print(result)
+        result = result[::-1]
+        result = [str(i) for i in result]
+                
+        return "".join(result)
