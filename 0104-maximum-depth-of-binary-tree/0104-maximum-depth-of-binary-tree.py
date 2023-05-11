@@ -14,21 +14,6 @@ class Solution(object):
         if not root:
             return 0
         
-        stack = deque()
-        stack.append(root)
-        depth = 0
+        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+    
         
-        while stack:
-            size = len(stack)
-            for i in range(size):
-                cur = stack.popleft()
-                if cur.right:
-                    stack.append(cur.right)
-                if cur.left:
-                    stack.append(cur.left)
-            
-            depth += 1
-            
-        return depth
-            
-            
