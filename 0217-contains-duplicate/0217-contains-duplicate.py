@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
     
-        exists = set()
-        for i in nums:
-            exists.add(i)
+        exists = set(nums)
+        # for i in nums:
+        #     exists.add(i)
         return len(nums) != len(exists)
