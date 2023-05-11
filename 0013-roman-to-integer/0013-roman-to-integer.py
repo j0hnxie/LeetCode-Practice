@@ -18,7 +18,7 @@ class Solution(object):
         result = 0
         i = 0
         while i < len(s):
-            print(result)
+            # print(result)
             if s[i] == "I":
                 if i != len(s) - 1:
                     if s[i + 1] == "V":
