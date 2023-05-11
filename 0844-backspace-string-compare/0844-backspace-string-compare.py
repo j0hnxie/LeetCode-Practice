@@ -6,19 +6,35 @@ class Solution(object):
         :rtype: bool
         """
         
-        sResult = ""
-        tResult = ""
+        i = len(s) - 1
+        j = len(t) - 1
         
-        for i in s:
-            if i == "#":
-                sResult = sResult[:-1]
-            else:
-                sResult += i
-        
-        for i in t:
-            if i == "#":
-                tResult = tResult[:-1]
-            else:
-                tResult += i
-                
-        return tResult == sResult
+        while i >= 0 or j >= 0:
+            skip = 0
+            while i >= 0:
+                if s[i] == "#":
+                    skip += 1
+                    i -= 1
+                elif skip > 0:
+                    skip -= 1
+                    i -= 1
+                else:
+                    break
+            skipJ = 0
+            while j >= 0:
+                if t[j] == "#":
+                    skipJ += 1
+                    j -= 1
+                elif skipJ > 0:
+                    skipJ -= 1
+                    j -= 1
+                else:
+                    break
+            if i >= 0 and j >= 0 and s[i] != t[j]:
+                return False
+            if (i >= 0) != (j >= 0):
+                return False
+            
+            i -= 1
+            j -= 1
+        return True
