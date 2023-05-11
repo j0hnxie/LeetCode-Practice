@@ -6,30 +6,19 @@ class Solution(object):
         :rtype: bool
         """
         
-        i = 0
-        while i < len(s):
-            # print(s)
-            if s[i] == "#":
-                if i == 0:
-                    s = s[1: len(s)]
-                else:
-                    s = s[0: i - 1] + s[i + 1: len(s)]
-                    i -= 1
-            else:
-                i += 1
+        sResult = ""
+        tResult = ""
         
-        i = 0
-        while i < len(t):
-            if t[i] == "#":
-                if i == 0:
-                    t = t[1:len(t)]
-                else:
-                    t = t[0: i - 1] + t[i + 1: len(t)]
-                    i -= 1
+        for i in s:
+            if i == "#":
+                sResult = sResult[:-1]
             else:
-                i += 1
+                sResult += i
+        
+        for i in t:
+            if i == "#":
+                tResult = tResult[:-1]
+            else:
+                tResult += i
                 
-        # print(s)
-        # print(t)
-                
-        return s == t
+        return tResult == sResult
