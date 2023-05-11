@@ -5,9 +5,7 @@ class Solution(object):
         :rtype: bool
         """
     
-        nums.sort()
-        
-        for i in range(1, len(nums)):
-            if nums[i] == nums[i - 1]:
-                return True
-        return False
+        exists = set()
+        for i in nums:
+            exists.add(i)
+        return len(nums) != len(exists)
