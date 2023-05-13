@@ -9,8 +9,8 @@ class Solution(object):
         results = [nums[0]]
         
         for i in range(1, len(nums)):
-            runningTotal = max(0 + nums[i], runningTotal + nums[i])
+            runningTotal = max(0, runningTotal) + nums[i]
             results.append(max(results[i - 1], runningTotal))
         
-        print(results)
+        # print(results)
         return results[len(nums) - 1]
