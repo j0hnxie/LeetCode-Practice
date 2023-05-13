@@ -5,11 +5,11 @@ class Solution(object):
         :rtype: int
         """
         
-        runningTotal = nums[0]
-        maxSoFar = nums[0]
+        runningTotal = float('-inf')
+        maxSoFar = float('-inf')
         
-        for i in range(1, len(nums)):
-            runningTotal = max(0, runningTotal) + nums[i]
+        for i in nums:
+            runningTotal = max(0, runningTotal) + i
             maxSoFar = max(maxSoFar, runningTotal)
         
         # print(results)
