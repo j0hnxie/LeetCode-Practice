@@ -6,11 +6,11 @@ class Solution(object):
         """
         
         runningTotal = nums[0]
-        results = [nums[0]]
+        maxSoFar = nums[0]
         
         for i in range(1, len(nums)):
             runningTotal = max(0, runningTotal) + nums[i]
-            results.append(max(results[i - 1], runningTotal))
+            maxSoFar = max(maxSoFar, runningTotal)
         
         # print(results)
-        return results[len(nums) - 1]
+        return maxSoFar
