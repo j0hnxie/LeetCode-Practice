@@ -9,7 +9,7 @@ class Solution(object):
         maxSoFar = float('-inf')
         
         for i in nums:
-            runningTotal = max(0, runningTotal) + i
+            runningTotal = max(i, runningTotal + i)
             maxSoFar = max(maxSoFar, runningTotal)
         
         # print(results)
