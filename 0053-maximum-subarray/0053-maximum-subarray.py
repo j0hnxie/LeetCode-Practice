@@ -5,13 +5,12 @@ class Solution(object):
         :rtype: int
         """
         
-        maxSum = nums[0]
-        curSubarray = 0
-        for i in nums:
-            curSubarray += i
-            if curSubarray > maxSum:
-                maxSum = curSubarray
-            if curSubarray < 0:
-                curSubarray = 0
-              
-        return maxSum
+        runningTotal = nums[0]
+        results = [nums[0]]
+        
+        for i in range(1, len(nums)):
+            runningTotal = max(0 + nums[i], runningTotal + nums[i])
+            results.append(max(results[i - 1], runningTotal))
+        
+        print(results)
+        return results[len(nums) - 1]
