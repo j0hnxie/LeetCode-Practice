@@ -6,32 +6,24 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        result = []
-        result1 = []
-        result2 = []
-        replaceInterval = newInterval
-        
+        marked = False
         for i in range(len(intervals)):
-            interval = intervals[i]
-            if newInterval[0] > interval[1]:
-                result1.append(interval)
-            elif newInterval[1] < interval[0]:
-                result2.append(interval)
-            else:
-                # print(interval)
-                replaceInterval[0] = min(interval[0], replaceInterval[0])
-                replaceInterval[1] = max(interval[1], replaceInterval[1])
-                # print(replaceInterval)
+            if intervals[i][0] > newInterval[0]:
+                intervals.insert(i, newInterval)
+                marked = True
+                break
                 
-        replaceInterval = [replaceInterval]
-                
-        # print(result)
-        result.extend(result1)
-        # print(result)
-        result.extend(replaceInterval)
-        # print(result)
-        result.extend(result2)
+        if not marked:
+            intervals.append(newInterval)
+        
+        i = 0
+        result = []
+        while i < len(intervals):
+            cur = intervals[i]
+            while i < len(intervals) and min(cur[1], intervals[i][1]) - max(cur[0], intervals[i][0]) >= 0:
+                cur = [min(cur[0], intervals[i][0]), max(cur[1], intervals[i][1])]
+                i += 1
+            i -= 1
+            result.append(cur)
+            i += 1
         return result
-            
-                
-                
