@@ -5,28 +5,26 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        result = [ [float('inf')] * len(mat[0]) for i in range(len(mat))]
-        queue = deque()
-        for i in range(len(result)):
-            for j in range(len(result[i])):
+        result = [[float('inf')] * len(mat[0]) for i in range(len(mat))]
+        
+        for i in range(len(mat)):
+            for j in range(len(mat[i])):
                 if mat[i][j] == 0:
                     result[i][j] = 0
-                    queue.append([i, j])
-                        
-        dirs = [[-1 , 0], [1, 0], [0, 1], [0, -1]]
-        while queue:
-            cur = queue.popleft()
-            row = cur[0]
-            col = cur[1]
-            for i in dirs:
-                newRow = row + i[0]
-                if newRow < 0 or newRow >= len(mat):
-                    continue
-                newCol = col + i[1]
-                if newCol < 0 or newCol >= len(mat[row]):
-                    continue
-                if result[newRow][newCol] > result[row][col] + 1:
-                    result[newRow][newCol] = result[row][col] + 1
-                    queue.append([newRow, newCol])
-                    
+                else:
+                    if i > 0:
+                        result[i][j] = min(result[i][j], result[i - 1][j] + 1)
+                    if j > 0:
+                        result[i][j] = min(result[i][j], result[i][j - 1] + 1)
+        
+        for i in range(len(mat) - 1, -1, -1):
+            for j in range(len(mat[i]) - 1, -1, -1):
+                if mat[i][j] == 0:
+                    result[i][j] = 0
+                else:
+                    if i < len(mat) - 1:
+                        result[i][j] = min(result[i][j], result[i + 1][j] + 1)
+                    if j < len(mat[i]) - 1:
+                        result[i][j] = min(result[i][j], result[i][j + 1] + 1)
+        
         return result
