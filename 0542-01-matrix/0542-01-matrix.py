@@ -5,37 +5,28 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        bfs = deque()
-        visited = set()
-        maxDist = len(mat) + len(mat[0])
-        
-        for i in range(len(mat)):
-            for j in range(len(mat[i])):
+        result = [ [float('inf')] * len(mat[0]) for i in range(len(mat))]
+        queue = deque()
+        for i in range(len(result)):
+            for j in range(len(result[i])):
                 if mat[i][j] == 0:
-                    bfs.append((i, j))
-                    visited.add((i, j))
-                else:
-                    mat[i][j] = maxDist
-            
-        
-        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        # print(str(i) + " " + str(j))
-        while bfs:
-            # print(bfs)
-            cur = bfs.popleft()
-            for direction in directions:
-                newY = cur[0] + direction[0]
-                newX = cur[1] + direction[1]
-                if (newY, newX) not in visited:
-                    if newY < 0 or newY >= len(mat):
-                        continue
-                    elif newX < 0 or newX >= len(mat[0]):
-                        continue
-                    bfs.append((newY, newX))
-                    visited.add((newY, newX))
-                    mat[newY][newX] = mat[cur[0]][cur[1]] + 1
-                
-        return mat
-                
-                            
+                    result[i][j] = 0
+                    queue.append([i, j])
+                        
+        dirs = [[-1 , 0], [1, 0], [0, 1], [0, -1]]
+        while queue:
+            cur = queue.popleft()
+            row = cur[0]
+            col = cur[1]
+            for i in dirs:
+                newRow = row + i[0]
+                if newRow < 0 or newRow >= len(mat):
+                    continue
+                newCol = col + i[1]
+                if newCol < 0 or newCol >= len(mat[row]):
+                    continue
+                if result[newRow][newCol] > result[row][col] + 1:
+                    result[newRow][newCol] = result[row][col] + 1
+                    queue.append([newRow, newCol])
                     
+        return result
