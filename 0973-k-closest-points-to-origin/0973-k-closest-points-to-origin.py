@@ -6,5 +6,20 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        res = sorted(points, key=lambda x: x[0] * x[0] + x[1] * x[1])
-        return res[:k]
+        test = []
+        for i in range(len(points)):
+            test.append([-1 * (points[i][0] * points[i][0] + points[i][1] * points[i][1]), i])
+            
+        heapify(test)
+        
+        # print(test)
+        
+        while len(test) > k:
+            heapq.heappop(test)
+            
+        
+        result = []    
+        for i in test:
+            result.append(points[i[1]])
+            
+        return result
