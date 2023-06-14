@@ -11,9 +11,7 @@ class Solution(object):
         start = 0
         for end in range(len(s)):
             if s[end] in counts:
-                temp = counts[s[end]] + 1
-                if temp > start:
-                    start = temp
+                start = max(counts[s[end]] + 1, start)
                 length = end - start + 1
                 counts[s[end]] = end
                 # print(start)
