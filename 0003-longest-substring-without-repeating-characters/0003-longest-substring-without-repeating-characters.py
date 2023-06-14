@@ -5,18 +5,15 @@ class Solution(object):
         :rtype: int
         """
         
-        counts = {}
+        counts = set()
         length = 0
         maxLength = 0
         start = 0
         for end in range(len(s)):
-            newCount = counts.get(s[end], 0) + 1
-            counts[s[end]] = newCount
-            if counts[s[end]] > 1:
+            if s[end] in counts:
                 while s[start] != s[end]:
-                    counts[s[start]] -= 1
+                    counts.remove(s[start])
                     start += 1
-                counts[s[start]] -= 1
                 start += 1
                 length = end - start + 1
                 # print(start)
@@ -24,6 +21,7 @@ class Solution(object):
                 # print(length)
             else:
                 length += 1
+                counts.add(s[end])
             # print(counts)
             maxLength = max(maxLength, length)
             
