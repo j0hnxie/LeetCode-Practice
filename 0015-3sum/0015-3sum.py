@@ -10,9 +10,9 @@ class Solution(object):
         for i in range(len(nums)):
             target = nums[i] * -1
             complements = {}
-            for j in range(len(nums)):
-                if i == j:
-                    continue
+            for j in range(i + 1, len(nums)):
+                # if i == j:
+                #     continue
                 comp = target - nums[j]
                 if comp in complements:
                     insertion = [nums[i], nums[j], nums[complements[comp]]]
