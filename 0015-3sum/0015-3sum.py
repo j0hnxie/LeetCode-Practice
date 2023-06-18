@@ -5,19 +5,31 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        # nums.sort()
-        result = set()
+        nums.sort()
+        result = []
         for i in range(len(nums)):
-            target = nums[i] * -1
-            complements = {}
-            for j in range(i + 1, len(nums)):
-                # if i == j:
-                #     continue
-                comp = target - nums[j]
-                if comp in complements:
-                    insertion = [nums[i], nums[j], nums[complements[comp]]]
-                    insertion.sort()
-                    final = tuple(insertion)
-                    result.add(final)
-                complements[nums[j]] = j
+            if nums[i] > 0:
+                break
+            
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
+                
+            low = i + 1
+            high = len(nums) - 1
+            sumTot = 0
+            while low < high:
+                sumTot = nums[i] + nums[low] + nums[high]
+                if sumTot > 0:
+                    high -= 1
+                elif sumTot < 0:
+                    low += 1
+                else:
+                    result.append([nums[i], nums[low], nums[high]])
+                    last_low = nums[low]
+                    last_high = nums[high]
+                    while low < high and nums[low] == last_low:
+                        low += 1
+                    while low < high and nums[high] == last_high:
+                        high -= 1
+    
         return result
