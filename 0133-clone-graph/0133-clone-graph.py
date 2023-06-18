@@ -19,25 +19,20 @@ class Solution(object):
         else:
             return None
         
-        visited = set()
-        visited.add(node.val)
         thisDict = {node.val: Node(val = node.val)}
-        result = thisDict[node.val]
         
         while dfs:
             top = dfs[-1]
             cur = thisDict[top.val]
             dfs.pop()
             for i in top.neighbors:
-                if not i.val in visited:
+                if i.val not in thisDict:
                     dfs.append(i)
-                    visited.add(i.val)
                     created = Node(val = i.val)
                     thisDict[i.val] = created
-                    cur.neighbors.append(created)
-                else:
-                    cur.neighbors.append(thisDict[i.val])
+                    
+                cur.neighbors.append(thisDict[i.val])
             
-        return result
+        return thisDict[node.val]
                 
             
