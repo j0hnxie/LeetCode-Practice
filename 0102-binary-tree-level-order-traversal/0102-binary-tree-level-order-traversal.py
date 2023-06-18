@@ -19,7 +19,7 @@ class Solution(object):
         
         while queue:
             lvl = len(queue)
-            result.append([])
+            temp = []
             
             for i in range(lvl):
                 top = queue.popleft()
@@ -28,7 +28,10 @@ class Solution(object):
                 
                 if top.right:
                     queue.append(top.right)
-                result[-1].append(top.val)
+                
+                temp.append(top.val)
+                    
+            result.append(temp)
         
         return result
             
