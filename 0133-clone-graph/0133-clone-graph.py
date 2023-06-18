@@ -30,8 +30,9 @@ class Solution(object):
                     dfs.append(i)
                     created = Node(val = i.val)
                     thisDict[i.val] = created
-                    
-                cur.neighbors.append(thisDict[i.val])
+                    cur.neighbors.append(created)
+                else:
+                    cur.neighbors.append(thisDict[i.val])
             
         return thisDict[node.val]
                 
