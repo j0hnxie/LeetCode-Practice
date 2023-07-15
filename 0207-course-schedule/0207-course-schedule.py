@@ -6,36 +6,30 @@ class Solution(object):
         :rtype: bool
         """
         
-        def dfsHelper(graph, cur, visited, done):
-            adjList = graph.get(cur, [])
-            
-            if cur in visited:
+        def dfs(cur):
+            if visited[cur] == -1:
                 return False
-            
-            if cur in done:
+            elif visited[cur] == 1:
                 return True
             
-            visited.add(cur)
-            done.add(cur)
-            for adj in adjList:
-                if not dfsHelper(graph, adj, visited, done):
+            visited[cur] = -1
+            for i in graph[cur]:
+                if not dfs(i):
                     return False
-            visited.remove(cur)
+                
+            visited[cur] = 1
             return True
-            
+                
         
-        graph = {}
+        visited = [0 for i in range(numCourses)]
+        graph = [[] for i in range(numCourses)]
+        
         for i in prerequisites:
-            cur = graph.get(i[1], [])
-            cur.append(i[0])
-            graph[i[1]] = cur
-            
-        for node in graph:
-            visit = set()
-            done = set()
-            if node not in done and not dfsHelper(graph, node, visit, done):
+            graph[i[1]].append(i[0])
+        
+        for i in range(numCourses):
+            if not dfs(i):
                 return False
-        
+            
         return True
-        
         
