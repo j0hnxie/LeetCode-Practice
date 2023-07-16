@@ -6,21 +6,14 @@ class Solution(object):
         :rtype: int
         """
         
-        if amount == 0:
-            return 0
-        
         maxAmnt = coins[-1]
             
         dp = [amount + 1] * (amount + 1)
-        for i in range(len(coins)):
-            curCoin = coins[i]
-            
-            if curCoin <= amount:
-                dp[curCoin] = 1
-            
+        dp[0] = 0
+        
         for i in range(1, amount + 1):
             for j in coins:
-                if i - j > 0:
+                if i >= j:
                     dp[i] = min(dp[i - j] + 1, dp[i])
                     
         if dp[-1] > amount:
