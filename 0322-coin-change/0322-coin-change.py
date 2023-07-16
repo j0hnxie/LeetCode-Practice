@@ -11,7 +11,7 @@ class Solution(object):
         
         maxAmnt = coins[-1]
             
-        dp = [float('inf')] * (amount + 1)
+        dp = [amount + 1] * (amount + 1)
         for i in range(len(coins)):
             curCoin = coins[i]
             
@@ -23,7 +23,7 @@ class Solution(object):
                 if i - j > 0:
                     dp[i] = min(dp[i - j] + 1, dp[i])
                     
-        if math.isinf(dp[-1]):
+        if dp[-1] > amount:
             return -1
         else:
             return dp[-1]
