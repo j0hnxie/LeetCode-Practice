@@ -11,7 +11,7 @@ class MinStack(object):
         :rtype: None
         """
         if self.stack:
-            self.mi = min(self.stack[-1][1], val)
+            self.mi = min(self.mi, val)
             self.stack.append([val, self.mi])
         else:
             self.mi = val
@@ -24,6 +24,8 @@ class MinStack(object):
         :rtype: None
         """
         self.stack.pop(-1)
+        if self.stack:
+            self.mi = self.stack[-1][1]
         
 
     def top(self):
