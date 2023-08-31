@@ -11,30 +11,22 @@ class Solution(object):
         :rtype: bool
         """
         
-        def helper(self, node):
-            if not node:
-                return True
+        if not root:
+            return True
+       
+        stack = []
+        pre = None
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
             
-            curLeft = node.left
-            if curLeft:
-                while curLeft.right:
-                    curLeft = curLeft.right
-                
-                if curLeft.val >= node.val:
-                    return False
-            
-            curRight = node.right
-            if curRight:
-                while curRight.left:
-                    curRight = curRight.left
-                    
-                if curRight.val <= node.val:
-                    return False
-            
-            if helper(self, node.left) and helper(self, node.right):
-                return True
-            else:
+            root = stack[-1]
+            stack.pop()
+            if pre and root.val <= pre.val:
                 return False
-            
-        return helper(self, root)
-                
+            pre = root
+            root = root.right
+        
+        return True
+        
