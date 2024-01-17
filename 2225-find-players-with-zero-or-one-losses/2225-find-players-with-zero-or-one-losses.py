@@ -4,25 +4,22 @@ class Solution(object):
         :type matches: List[List[int]]
         :rtype: List[List[int]]
         """
-        
-        losses = {}
+        noLoss = set()
+        oneLoss = set()
+        moreThanOneLoss = set()
         for match in matches:
-            curLoss = losses.get(match[0], 0)
-            curLoss += 0
-            losses[match[0]] = curLoss
-            curLoss = losses.get(match[1], 0)
-            curLoss += 1
-            losses[match[1]] = curLoss
-            
-        noLoss = []
-        oneLoss = []
-        
-        for key, value in losses.items():
-            if value == 0:
-                noLoss.append(key)
-            if value == 1:
-                oneLoss.append(key)
+            if match[1] in oneLoss:
+                oneLoss.remove(match[1])
+                moreThanOneLoss.add(match[1])
+            elif match[1] not in moreThanOneLoss:
+                noLoss.discard(match[1])
+                oneLoss.add(match[1])
                 
+            if match[0] not in oneLoss and match[0] not in moreThanOneLoss:
+                noLoss.add(match[0])
+            
+        oneLoss = list(oneLoss)
+        noLoss = list(noLoss)
         noLoss.sort()
         oneLoss.sort()
                 
