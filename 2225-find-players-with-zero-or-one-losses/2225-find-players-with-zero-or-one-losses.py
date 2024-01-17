@@ -5,7 +5,6 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        wins = {}
         losses = {}
         for match in matches:
             curLoss = losses.get(match[0], 0)
