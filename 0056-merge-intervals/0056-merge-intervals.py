@@ -5,7 +5,7 @@ class Solution:
         curMerge = intervals[0]
         for i in range(len(intervals)):
             if intervals[i][0] <= curMerge[1]:
-                curMerge = [min(curMerge[0], intervals[i][0]),
+                curMerge = [curMerge[0],
                            max(curMerge[1], intervals[i][1])]
             else:
                 res.append(curMerge)
