@@ -7,7 +7,7 @@ class Solution:
         for i in range(2, n + 1):
             dp[i] = max(nums[i - 1] + dp[i - 2], dp[i - 1])
         
-        print(dp)
+        # print(dp)
         maxCur = dp[0]
         for i in range(n + 1):
             maxCur = max(maxCur, dp[i])
