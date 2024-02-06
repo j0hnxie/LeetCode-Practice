@@ -1,11 +1,9 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        counts = {}
+        counts = [0 for i in range(26)]
         for char in s:
-            cur = counts.get(char, 0)
-            cur += 1
-            counts[char] = cur
+            counts[ord(char) - 97] += 1
         for index in range(len(s)):
-            if counts[s[index]] == 1:
+            if counts[ord(s[index]) - 97] == 1:
                 return index
         return -1
