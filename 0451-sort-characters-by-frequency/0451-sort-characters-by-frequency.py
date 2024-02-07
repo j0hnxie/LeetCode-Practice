@@ -9,7 +9,6 @@ class Solution:
         pq = sorted(counts.items(), key=lambda item: item[1],reverse=True)
         res = ""
         for i in pq:
-            for j in range(i[1]):
-                res += i[0]
+            res += i[0] * i[1]
             
         return res
