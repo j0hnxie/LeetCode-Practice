@@ -1,8 +1,6 @@
 class Solution:
     def frequencySort(self, s: str) -> str:
-        counts = {}
-        for char in s:
-            counts[char] = counts.get(char, 0) + 1
+        counts = Counter(s)
         
         pq = []
         for key, value in counts.items():
