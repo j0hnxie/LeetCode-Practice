@@ -6,11 +6,12 @@ class Solution:
         
         pq = []
         for key, value in counts.items():
-            heapq.heappush(pq, (-1 * value, key))
+            pq.append((value, key))
         
+        pq = sorted(pq, reverse=True)
         res = ""
-        while pq:
-            cur = heapq.heappop(pq)
-            for i in range(cur[0] * -1):
-                res += cur[1]
+        for i in pq:
+            for j in range(i[0]):
+                res += i[1]
+            
         return res
