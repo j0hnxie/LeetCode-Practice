@@ -1,20 +1,9 @@
-class Solution(object):
-    def majorityElement(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        
-        
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
         counts = {}
-        n = len(nums)
-        n /= 2
+        n = len(nums) / 2
         for i in nums:
-            # print(i)
-            # counts[i] += 1
-            cur = counts.get(i, 0)
-            counts[i] = cur + 1
-            if cur >= n:
+            counts[i] = counts.get(i, 0) + 1
+            if counts[i] > n:
                 return i
-            
-        
+        return -1
