@@ -1,13 +1,19 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         n = len(s)
-        palindrome = [[False] * n for _ in range(n)]
-        ans = 0
-
-        for length in range(1, n + 1):
-            for i in range(n - length + 1):
-                if s[i] == s[i + length - 1] and (length <= 2 or palindrome[i + 1][i + length - 2]):
-                    palindrome[i][i + length - 1] = True
-                    ans += 1
-
-        return ans
+        def testPalindrome(i, j):
+            count = 0
+            while i >= 0 and j < n:
+                if s[i] != s[j]:
+                    return count
+                i -= 1
+                j += 1
+                count += 1
+            return count
+        
+        res = 0
+        for i in range(n):
+            res += testPalindrome(i, i)
+            res += testPalindrome(i, i + 1)
+        return res
+            
