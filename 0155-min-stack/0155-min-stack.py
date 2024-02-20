@@ -9,8 +9,8 @@ class MinStack:
         self.stack.append((val, self.min))
 
     def pop(self) -> None:
-        self.min = max(self.stack[-1][1], self.stack[-2][1] if len(self.stack) >= 2 else float('inf'))
         self.stack.pop()
+        self.min = self.stack[-1][1] if len(self.stack) else float('inf')
         
 
     def top(self) -> int:
