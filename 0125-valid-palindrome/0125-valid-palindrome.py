@@ -1,20 +1,9 @@
-class Solution(object):
-    def isPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        string = ""
         
-        left = 0
-        right = len(s) - 1
-        s = s.upper()
-        while left < right:
-            while not s[left].isalnum() and left < right:
-                left += 1
-            while not s[right].isalnum() and left < right:
-                right -= 1
-            if s[left] != s[right]:
-                return False
-            left += 1
-            right -= 1
-        return True
+        for char in s:
+            if char.isalnum():
+                string += char.lower()
+        
+        return string == string[::-1]
