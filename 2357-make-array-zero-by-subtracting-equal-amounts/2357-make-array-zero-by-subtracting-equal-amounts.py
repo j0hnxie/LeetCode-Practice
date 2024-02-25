@@ -1,12 +1,8 @@
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
-        sort = sorted(nums)
+        unique = set(nums)
         
-        total = 0
-        operation = 0
-        for num in sort:
-            if num - total != 0:
-                operation += 1
-                total += num - total
-            
-        return operation
+        unique.add(0)
+        unique.remove(0)
+        
+        return len(unique)
