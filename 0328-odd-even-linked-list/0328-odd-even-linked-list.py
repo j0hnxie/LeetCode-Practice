@@ -8,29 +8,30 @@ class Solution:
         if not head or not head.next or not head.next.next:
             return head
         
-        oddHead = head
-        evenHead = head.next
-        oddTail = head
-        evenTail = head.next
-        itr = head.next.next
-        evenTail.next = None
-        index = 3
         
-        while itr:
-            # print(itr)
+        tail = head
+        endIndex = 1
+        
+        while tail.next:
+            tail = tail.next
+            endIndex += 1
+        
+        itr = head
+        prev = head
+        index = 1
+        while index <= endIndex:
             nextNode = itr.next
+            
             if index % 2 == 0:
-                evenTail.next = itr
-                itr.next = None
-                evenTail = evenTail.next
+                prev.next = nextNode
+                tail.next = itr
+                tail = tail.next
             else:
-                oddTail.next = itr
-                itr.next = None
-                oddTail = oddTail.next
+                prev = itr
             
             index += 1
             itr = nextNode
         
-        oddTail.next = evenHead
-        return oddHead
+        tail.next = None
+        return head
         
