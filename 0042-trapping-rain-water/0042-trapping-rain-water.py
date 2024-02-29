@@ -12,8 +12,8 @@ class Solution:
             cur = height[i + 1]
             right[i] = max(cur, right[i + 1])
         
-        print(left)
-        print(right)
+        # print(left)
+        # print(right)
         res = 0
         for i in range(n):
             res += max(0, min(left[i], right[i]) - height[i])
