@@ -7,10 +7,5 @@ class Solution:
             if char == "1":
                 ones += 1
         
-        res = ""
-        for i in range(ones - 1):
-            res += "1"
-        for i in range(total - ones):
-            res += "0"
-        res += "1"
+        res = "1" * (ones - 1) + "0" * (total - ones) + "1"
         return res
