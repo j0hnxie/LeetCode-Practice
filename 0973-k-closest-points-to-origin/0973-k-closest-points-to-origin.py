@@ -1,25 +1,13 @@
-class Solution(object):
-    def kClosest(self, points, k):
-        """
-        :type points: List[List[int]]
-        :type k: int
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
+        pq = []
         
-        test = []
-        for i in range(len(points)):
-            test.append([-1 * (points[i][0] * points[i][0] + points[i][1] * points[i][1]), i])
-            
-        heapify(test)
-        
-        # print(test)
-        
-        while len(test) > k:
-            heapq.heappop(test)
-            
-        
-        result = []    
-        for i in test:
-            result.append(points[i[1]])
-            
-        return result
+        for x, y in points:
+            dist = x * x + y * y
+            if len(pq) < k:
+                heapq.heappush(pq, (-dist, x, y))
+            else:
+                heapq.heappushpop(pq, (-dist, x, y))
+                
+        res = [[x, y] for dist, x, y in pq]
+        return res
