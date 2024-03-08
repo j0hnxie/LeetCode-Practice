@@ -1,35 +1,27 @@
-class Solution(object):
-    def canFinish(self, numCourses, prerequisites):
-        """
-        :type numCourses: int
-        :type prerequisites: List[List[int]]
-        :rtype: bool
-        """
-        
-        def dfs(cur):
-            if visited[cur] == -1:
-                return False
-            elif visited[cur] == 1:
-                return True
-            
-            visited[cur] = -1
-            for i in graph[cur]:
-                if not dfs(i):
-                    return False
-                
-            visited[cur] = 1
-            return True
-                
-        
-        visited = [0 for i in range(numCourses)]
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        queue = deque()
+        visited = 0
         graph = [[] for i in range(numCourses)]
+        indegree = [0 for i in range(numCourses)]
         
-        for i in prerequisites:
-            graph[i[1]].append(i[0])
+        for cur, pre in prerequisites:
+            graph[pre].append(cur)
+            indegree[cur] += 1
         
-        for i in range(numCourses):
-            if not dfs(i):
-                return False
+        for course in range(numCourses):
+            if indegree[course] == 0:
+                queue.append(course)
+                visited += 1
+        
+        while queue:
+            cur = queue.popleft()
             
-        return True
+            for neighbor in graph[cur]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+                    visited += 1
+            
         
+        return visited == numCourses
