@@ -13,7 +13,7 @@ class Solution:
                 return 0
             left = diameter(root.left)
             right = diameter(root.right)
-            self.diam = max(self.diam, (left - 1) + (right - 1) + 2)
+            self.diam = max(self.diam, left + right)
             return max(left, right) + 1
         diameter(root)
         return self.diam
