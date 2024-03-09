@@ -7,6 +7,7 @@ class Solution:
         lastZero = -1
         
         for idx, num in enumerate(nums):
+            curLen = 0
             prefix *= num
             if prefix < 0:
                 if firstNeg == -1:
