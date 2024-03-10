@@ -1,5 +1,6 @@
 class Solution:
     def knightDialer(self, n: int) -> int:
+        MOD = (10 ** 9 + 7)
         memo = [1 for i in range(10)]
         prev = {
             0: [4, 6],
@@ -20,14 +21,14 @@ class Solution:
                 numberOfNumbers = 0
                 for num in prev[row]:
                     numberOfNumbers += memo[num]
-                    numberOfNumbers %= (10 ** 9 + 7)
+                    numberOfNumbers %= MOD
                 cur.append(numberOfNumbers)
             memo = cur
             
         res = 0
         for entry in memo:
             res += entry
-            res %= (10 ** 9 + 7)
+            res %= MOD
         
         return res
         
