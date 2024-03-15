@@ -10,5 +10,5 @@ class Solution:
             possible[counter] = True
             maxJump = max(maxJump, counter + nums[counter])
             counter += 1
-        print(possible)
+        # print(possible)
         return possible[n - 1]
