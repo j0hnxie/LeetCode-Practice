@@ -1,18 +1,22 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        n = len(nums)
-        res = [[]]
-        
-        def backtracking(cur, index):
-            if index == n:
+        def backtrack(first = 0, curr = []):
+            # If the combination is done
+            if len(curr) == k:  
+                output.append(curr[:])
                 return
+            for i in range(first, n):
+                # Add nums[i] into the current combination
+                curr.append(nums[i])
 
-            backtracking(cur, index + 1)
-            cur.append(nums[index])
-            res.append(cur.copy())
-            backtracking(cur, index + 1)
-            cur.pop()
-            
-        backtracking([], 0)
-        return res
+                # Use the next integers to complete the combination
+                backtrack(i + 1, curr)
+
+                # Backtrack
+                curr.pop()
         
+        output = []
+        n = len(nums)
+        for k in range(n + 1):
+            backtrack()
+        return output
