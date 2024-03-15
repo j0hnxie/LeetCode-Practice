@@ -1,14 +1,12 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         n = len(nums)
-        # possible = [False for i in range(n)]
-        # possible[0] = True
         
-        maxJump = nums[0]
-        counter = 0
-        while counter <= maxJump and counter < n:
-            # possible[counter] = True
-            maxJump = max(maxJump, counter + nums[counter])
-            counter += 1
-        # print(possible)
-        return maxJump >= n - 1
+        possible = n - 1
+        counter = n - 1
+        while counter >= 0:
+            print(possible)
+            if counter + nums[counter] >= possible:
+                possible = counter
+            counter -= 1
+        return possible == 0
