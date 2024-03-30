@@ -8,27 +8,36 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        s = []
+        if not head or not head.next:
+            return head
         
-        front = head
+        f = head
+        s = head
+        prev = s
+        while f and f.next:
+            f = f.next.next
+            prev = s
+            s = s.next
         
-        while head:
-            s.append(head)
-            head = head.next
-        back = s.pop()
+        prev.next = None
+        prev = None
+        while s:
+            temp = s.next
+            s.next = prev
+            prev = s
+            s = temp
         
-        while front != back and front.next != back:
-            # print(front)
-            # print(back)
-            temp = front.next
-            front.next = back
-            back.next = temp
-            
-            front = temp
-            back = s.pop()
-            
-#         if front == back:
-#             front.next = 
-        back.next = None
-            
+        zero = head
+        one = prev
+        while zero:
+            # print(zero)
+            # print(one)
+            zN = zero.next
+            oN = one.next
+            zero.next = one
+            one.next = zN if zN else one.next
+            zero = zN
+            one = oN
+        
         return head
+        
