@@ -12,10 +12,6 @@ class Solution:
             if not root:
                 return
             
-            # n = len(self.res) if self.res else float('inf')
-            # if depth > n:
-            #     return
-            
             cur = chr(ord('a') + root.val) + cur
             if not root.left and not root.right:
                 if not self.res:
