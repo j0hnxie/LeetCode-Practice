@@ -21,6 +21,7 @@ class Solution:
                 new_right = TreeNode(val=val, left=None, right=r.right)
                 r.left = new_left
                 r.right = new_right
+                return
                 
             add(r.left, v, d + 1)
             add(r.right, v, d + 1)
