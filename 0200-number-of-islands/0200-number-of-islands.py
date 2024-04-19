@@ -1,34 +1,27 @@
-class Solution(object):
-    def numIslands(self, grid):
-        """
-        :type grid: List[List[str]]
-        :rtype: int
-        """
-        
-        islands = 0
-        
-        visited = [[False for j in range(len(grid[0]))] for i in range(len(grid))]
-        directions = [[-1, 0], [1, 0], [0, 1], [0, -1]]
-        
-        for i in range(len(grid)):
-            for j in range(len(grid[i])):
-                if visited[i][j] or grid[i][j] == "0":
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        moves = [[0, 1], [1, 0], [-1, 0], [0, -1]]
+        m = len(grid)
+        n = len(grid[0])
+        def dfs(x, y):
+            grid[x][y] = "0"
+            for move in moves:
+                newX = x + move[0]
+                newY = y + move[1]
+                
+                if newX < 0 or newX >= m or newY < 0 or newY >= n:
                     continue
                 
-                islands += 1
-                stack = []
-                stack.append([i, j])
-                while stack:
-                    top = stack[-1]
-                    stack.pop()
-                    visited[top[0]][top[1]] = True
-                    for k in directions:
-                        newX = top[0] + k[0]
-                        newY = top[1] + k[1]
-                        if newX < 0 or newY < 0 or newX >= len(grid) or newY >= len(grid[i]):
-                            continue
-                        
-                        if not visited[newX][newY] and grid[newX][newY] == "1":
-                            stack.append([newX, newY])
+                if grid[newX][newY] == "1":
+                    dfs(newX, newY)
+        
+        
+        res = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == "1":
+                    dfs(i, j)
+                    res += 1
+        return res
                     
-        return islands
+        
