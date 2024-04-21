@@ -11,10 +11,10 @@ class Solution:
             cur_adj.append(u)
             adj[v] = cur_adj
         
-        stack = [source]
-        visited = set(stack)
-        while stack:
-            cur = stack.pop()
+        queue = deque([source])
+        visited = set([source])
+        while queue:
+            cur = queue.popleft()
             if cur == destination:
                 return True
             
@@ -24,6 +24,6 @@ class Solution:
                     continue
                 
                 visited.add(neigh)
-                stack.append(neigh)
+                queue.append(neigh)
         
         return False
