@@ -1,43 +1,37 @@
-class Solution(object):
-    def addBinary(self, a, b):
-        """
-        :type a: str
-        :type b: str
-        :rtype: str
-        """
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        a = a[::-1]
+        b = b[::-1]
         
-#         aInt = int(a, 2)
-#         bInt = int(b, 2)
-#         resultInt = aInt + bInt
-#         result = bin(resultInt).replace("0b", "")
-#         return result
-        
-        aLen = len(a) - 1
-        bLen = len(b) - 1
-        result = ""
-        nextOne = 0
-        
-        while aLen >= 0 or bLen >= 0:
-            aDigit = 0
-            bDigit = 0
-            if aLen >= 0:
-                aDigit = int(a[aLen])
-                aLen -= 1
-            if bLen >= 0:
-                bDigit = int(b[bLen])
-                bLen -= 1
-                
-            digit = aDigit + bDigit
+        counter = 0
+        carry = False
+        res = ""
+        while counter < min(len(a), len(b)):
+            cur_a = int(a[counter])
+            cur_b = int(b[counter])
             
-            digit += nextOne
-                
-            result += str(digit % 2)
-            nextOne = digit / 2
+            carry_dig = 1 if carry else 0
+            cur_dig = cur_a + cur_b + carry_dig
+            carry = True if cur_dig >= 2 else False
+            cur_dig = cur_dig % 2
             
-        if nextOne:
-            result += str(nextOne)
+            res += str(cur_dig)
+            counter += 1
         
-        # print(result)
-        result = result[::-1]
-                
-        return result
+        longer_str = a if len(a) > len(b) else b
+        
+        while counter < len(longer_str):
+            cur_dig = int(longer_str[counter])
+            
+            carry_dig = 1 if carry else 0
+            cur_dig += carry_dig
+            carry = True if cur_dig >= 2 else False
+            cur_dig = cur_dig % 2
+            
+            res += str(cur_dig)
+            counter += 1
+        
+        if carry:
+            res += "1"
+        
+        return res[::-1]
