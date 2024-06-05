@@ -9,7 +9,6 @@ class Solution:
             return False
         
         for char, word in zip(pattern, words):
-            print(char, word)
             if char in char_to_word:
                 if word != char_to_word[char]:
                     return False
