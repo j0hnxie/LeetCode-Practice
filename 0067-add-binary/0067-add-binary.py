@@ -15,7 +15,7 @@ class Solution:
             carry = True if cur_dig >= 2 else False
             cur_dig = cur_dig % 2
             
-            res += str(cur_dig)
+            res = str(cur_dig) + res
             counter += 1
         
         longer_str = a if len(a) > len(b) else b
@@ -28,10 +28,10 @@ class Solution:
             carry = True if cur_dig >= 2 else False
             cur_dig = cur_dig % 2
             
-            res += str(cur_dig)
+            res = str(cur_dig) + res
             counter += 1
         
         if carry:
-            res += "1"
+            res = "1" + res
         
-        return res[::-1]
+        return res
