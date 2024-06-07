@@ -6,7 +6,7 @@ class Solution:
         if n <= 1:
             return n
         
-        if n in self.memo:
-            return self.memo[n]
+        if n not in self.memo:
+            self.memo[n] = self.fib(n - 1) + self.fib(n - 2)
         
-        return self.fib(n - 1) + self.fib(n - 2)
+        return self.memo[n]
