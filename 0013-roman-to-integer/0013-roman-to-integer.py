@@ -1,69 +1,28 @@
-class Solution(object):
-    def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        
-        values = {
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        possibles = {
             "I": 1,
             "V": 5,
             "X": 10,
             "L": 50,
             "C": 100,
             "D": 500,
-            "M": 1000
+            "M": 1000,
+            "IV": 4,
+            "IX": 9,
+            "XL": 40,
+            "XC": 90,
+            "CD": 400,
+            "CM": 900,
         }
         
-        result = values[s[-1]]
-        
-        for i in range(len(s) - 1):
-            if values[s[i]] < values[s[i + 1]]:
-                result -= values[s[i]]
+        res = 0
+        idx = 0
+        while idx < len(s):
+            if s[idx:idx + 2] in possibles:
+                res += possibles[s[idx:idx+2]]
+                idx += 1
             else:
-                result += values[s[i]]
-        
-        return result
-        
-#         i = 0
-#         while i < len(s):
-#             # print(result)
-#             if s[i] == "I":
-#                 if i != len(s) - 1:
-#                     if s[i + 1] == "V":
-#                         result += 4
-#                         i += 2
-#                         continue
-#                     elif s[i + 1] == "X":
-#                         result += 9
-#                         i += 2
-#                         continue
-#                 result += 1
-#             elif s[i] == "X":
-#                 if i != len(s) - 1:
-#                     if s[i + 1] == "L":
-#                         result += 40
-#                         i += 2
-#                         continue
-#                     elif s[i + 1] == "C":
-#                         result += 90
-#                         i += 2
-#                         continue
-#                 result += 10
-#             elif s[i] == "C":
-#                 if i != len(s) - 1:
-#                     if s[i + 1] == "D":
-#                         result += 400
-#                         i += 2
-#                         continue
-#                     elif s[i + 1] == "M":
-#                         result += 900
-#                         i += 2
-#                         continue
-#                 result += 100
-#             else:
-#                 # print(values[s[i]])
-#                 result += values[s[i]]
-#             i += 1
-                
-#         return result
+                res += possibles[s[idx]]
+            idx += 1
+        return res
