@@ -7,13 +7,12 @@ class Solution:
         res = ""
         for word in sentence:
             found = False
-            for root in dictionary:
-                if root == word[:len(root)]:
-                    # print("Found " + root + " in " + word)
-                    res += root + " "
+            for idx in range(len(word)):
+                if word[:idx] in dict_set:
+                    res += word[:idx] + " "
                     found = True
-                if found:
                     break
             if not found:
                 res += word + " "
+            
         return res[:-1]
