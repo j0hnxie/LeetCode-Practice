@@ -1,6 +1,6 @@
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
-        # monotonic stack
+        # monotonic stack O(n ^ 2)
         s = []
         
         for num in arr:
