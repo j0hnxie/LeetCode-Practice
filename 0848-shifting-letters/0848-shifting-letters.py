@@ -12,6 +12,8 @@ class Solution:
             # print(new_val)
             new_char = chr(new_val + 97)
             # print(new_char)
-            res = new_char + res
+            res += new_char
+        
+        res = res[::-1]
         
         return res
