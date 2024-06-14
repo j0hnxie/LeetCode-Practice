@@ -1,14 +1,21 @@
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
-        # monotonic stack O(n ^ 2)
+        # preprocessing max and min
         s = []
+        running_min = []
         
-        for num in arr:
-            cur = num
-            while s and s[-1] > num:
-                cur = max(cur, s.pop())
-            s.append(cur)
+        cur_min = float('inf')
+        for num in reversed(arr):
+            cur_min = min(num, cur_min)
+            running_min.append(cur_min)
         
-        # print(s)
+        running_min.reverse()
         
-        return len(s)
+        chunks, cur_max = 1, 0
+        for idx in range(len(arr) - 1):
+            num = arr[idx]
+            cur_max = max(num, cur_max)
+            if cur_max <= running_min[idx + 1]:
+                chunks += 1
+        
+        return chunks
