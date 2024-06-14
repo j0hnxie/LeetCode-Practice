@@ -1,5 +1,6 @@
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
+        # prefix sum O(n log n) runtime O(n) space
         sorted_arr = sorted(arr)
         
         pre_sort, pre_non, res = 0, 0, 0
