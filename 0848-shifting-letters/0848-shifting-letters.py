@@ -9,8 +9,8 @@ class Solution:
             char_val = ord(s[idx]) - 97
             new_val = (char_val + total) % 26
             new_char = chr(new_val + 97)
-            res = new_char + res
+            res += new_char
         
-        # res = res[::-1]
+        res = res[::-1]
         
         return res
