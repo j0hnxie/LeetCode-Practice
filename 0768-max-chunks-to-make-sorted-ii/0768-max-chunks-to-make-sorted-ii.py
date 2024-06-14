@@ -1,12 +1,14 @@
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
-        # prefix sum O(n log n) runtime O(n) space
-        sorted_arr = sorted(arr)
+        # monotonic stack
+        s = []
         
-        pre_sort, pre_non, res = 0, 0, 0
-        for a, b in zip(arr, sorted_arr):
-            pre_non += a
-            pre_sort += b
-            res += 1 if pre_non == pre_sort else 0
-            
-        return res
+        for num in arr:
+            cur = num
+            while s and s[-1] > num:
+                cur = max(cur, s.pop())
+            s.append(cur)
+        
+        # print(s)
+        
+        return len(s)
