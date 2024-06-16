@@ -5,10 +5,11 @@ class Solution:
         res = 0
         for i in range(n):
             for j in range(i + 1, n):
+                if nums[j] - nums[i] > diff:
+                    break
                 for k in range(j + 1, n):
+                    if nums[k] - nums[j] > diff:
+                        break
                     if nums[j] - nums[i] == nums[k] - nums[j] == diff:
-                        # print(i)
-                        # print(j)
-                        # print(k)
                         res += 1
         return res
