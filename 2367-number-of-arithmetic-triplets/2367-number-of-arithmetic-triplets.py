@@ -2,20 +2,20 @@ class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
         # 2 pointer w no hashmap
         n, res = len(nums), 0
-        l, m = 0, 1
+        last = {}
+        l, r = 0, 1
         
-        while m < n:
-            while nums[m] - nums[l] > diff:
+        while r < n:
+            while nums[r] - nums[l] > diff:
                 l += 1
                 
-            if nums[m] - nums[l] == diff:
-                r = m + 1
-                while r < n and nums[r] - nums[m] <= diff:
-                    if nums[r] - nums[m] == diff:
-                        res += 1
-                    r += 1
+            if nums[r] - nums[l] == diff:
+                last[r] = last.get(r, 0) + 1
+                res += last.get(l, 0)
             
-            m += 1
+            # print(last)
+                
+            r += 1
         return res
         
         
