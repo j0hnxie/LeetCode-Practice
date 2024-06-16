@@ -1,5 +1,6 @@
 class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
+        # 2 pointer w no hashmap
         n, res = len(nums), 0
         l, m = 0, 1
         
