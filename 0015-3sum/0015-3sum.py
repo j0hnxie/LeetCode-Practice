@@ -1,35 +1,34 @@
-class Solution(object):
-    def threeSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
-        result = []
-        for i in range(len(nums)):
-            if nums[i] > 0:
-                break
-            
-            if i > 0 and nums[i] == nums[i - 1]:
+        n = len(nums)
+        prev = "A"
+        idx = 0
+        res = []
+
+        while idx < n:
+            num = nums[idx]
+            if num == prev:
+                idx += 1
                 continue
-                
-            low = i + 1
-            high = len(nums) - 1
-            sumTot = 0
-            while low < high:
-                sumTot = nums[i] + nums[low] + nums[high]
-                if sumTot > 0:
-                    high -= 1
-                elif sumTot < 0:
-                    low += 1
+              
+            if num > 0:
+                break
+
+            l, r = idx + 1, n - 1
+            while l < r:
+                if nums[l] + nums[r] + num == 0:
+                    res.append([num, nums[l], nums[r]])
+                    while l < r and nums[l] == nums[l + 1]:
+                        l += 1
+                    while l < r and nums[r] == nums[r - 1]:
+                        r -= 1
+                    l += 1
+                    r -= 1
+                elif nums[l] + nums[r] + num < 0:
+                    l += 1
                 else:
-                    result.append([nums[i], nums[low], nums[high]])
-                    last_low = nums[low]
-                    last_high = nums[high]
-                    while low < high and nums[low] == last_low:
-                        low += 1
-                    while low < high and nums[high] == last_high:
-                        high -= 1
-    
-        return result
+                    r -= 1
+            prev = num
+            idx += 1
+        return res
