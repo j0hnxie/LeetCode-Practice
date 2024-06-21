@@ -16,7 +16,7 @@ class Solution:
             elif count == maxCount:
                 numOfMax += 1
                 
-        print(maxCount)
-        print(numOfMax)
+        # print(maxCount)
+        # print(numOfMax)
 
         return max((maxCount - 1) * (n + 1) + numOfMax, len(tasks))
