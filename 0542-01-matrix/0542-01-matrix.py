@@ -1,12 +1,6 @@
-class Solution(object):
-    def updateMatrix(self, mat):
-        """
-        :type mat: List[List[int]]
-        :rtype: List[List[int]]
-        """
-        
-        # result = [[float('inf')] * len(mat[0]) for i in range(len(mat))]
-        
+class Solution:
+    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+     
         for i in range(len(mat)):
             for j in range(len(mat[i])):
                 if mat[i][j] != 0:
@@ -24,4 +18,4 @@ class Solution(object):
                     if j < len(mat[i]) - 1:
                         mat[i][j] = min(mat[i][j], mat[i][j + 1] + 1)
         
-        return mat
+        return mat   
