@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
@@ -27,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
@@ -34,4 +36,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
