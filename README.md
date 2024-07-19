@@ -44,4 +44,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
+## Graph
+|  |
+| ------- |
+| [1738-maximal-network-rank](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1738-maximal-network-rank) |
 <!---LeetCode Topics End-->
