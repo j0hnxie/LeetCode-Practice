@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 ## Topological Sort
@@ -93,5 +95,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
