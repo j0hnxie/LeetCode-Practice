@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
+| [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
 ## Graph
 |  |
 | ------- |
@@ -118,4 +120,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
+## Tree
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
+## Binary Tree
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
 <!---LeetCode Topics End-->
