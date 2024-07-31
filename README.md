@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Monotonic Stack
 |  |
