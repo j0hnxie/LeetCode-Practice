@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
+| [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
+| [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Monotonic Stack
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
@@ -132,4 +135,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
+## Math
+|  |
+| ------- |
+| [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 <!---LeetCode Topics End-->
