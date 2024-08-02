@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
@@ -147,4 +148,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
