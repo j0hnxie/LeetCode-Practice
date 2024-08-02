@@ -7,11 +7,9 @@ class Solution:
             num_counts[answer + 1] = temp_count
         
         res = 0
-        print(num_counts)
         for num, count in num_counts.items():
             groups = math.ceil(count / num)
             res += groups * num
-            # res += count % num
         
         return res
         
