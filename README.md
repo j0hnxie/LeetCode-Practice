@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
+| [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 ## Breadth-First Search
@@ -40,12 +41,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
+| [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 ## Matrix
 |  |
 | ------- |
@@ -82,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
+| [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [1738-maximal-network-rank](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1738-maximal-network-rank) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
