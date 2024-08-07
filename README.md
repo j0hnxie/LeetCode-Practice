@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
+| [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
+| [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
 ## Sliding Window
 |  |
 | ------- |
@@ -205,4 +207,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0053-maximum-subarray) |
+## Geometry
+|  |
+| ------- |
+| [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
 <!---LeetCode Topics End-->
