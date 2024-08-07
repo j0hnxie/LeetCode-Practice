@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0134-gas-station) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0152-maximum-product-subarray) |
@@ -194,4 +196,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
