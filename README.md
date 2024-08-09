@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0152-maximum-product-subarray) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
+| [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
 | [0393-utf-8-validation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0393-utf-8-validation) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 ## Shortest Path
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Memoization
 |  |
@@ -237,4 +240,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0043-multiply-strings) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
