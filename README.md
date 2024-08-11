@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -64,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 ## Union Find
 |  |
 | ------- |
@@ -82,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 ## Dynamic Programming
 |  |
@@ -270,4 +274,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
