@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0006-zigzag-conversion) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0043-multiply-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0043-multiply-strings) |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
@@ -235,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 ## Counting
 |  |
@@ -291,4 +293,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
