@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0393-utf-8-validation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0393-utf-8-validation) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0056-merge-intervals](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0056-merge-intervals) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
@@ -240,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 ## Counting
 |  |
@@ -291,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
