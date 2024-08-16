@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0890-lemonade-change) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
+| [0890-lemonade-change](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0890-lemonade-change) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
