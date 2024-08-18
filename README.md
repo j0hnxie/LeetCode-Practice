@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0152-maximum-product-subarray) |
+| [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0219-contains-duplicate-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0219-contains-duplicate-ii) |
+| [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
+| [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
@@ -228,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
+| [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0273-integer-to-english-words) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
