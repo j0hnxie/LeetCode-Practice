@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -172,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Monotonic Stack
 |  |
