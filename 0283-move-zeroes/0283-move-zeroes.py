@@ -3,16 +3,13 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        
         n = len(nums)
         
-        start = 0
+        cur_idx = 0
         for num in nums:
             if num != 0:
-                nums[start] = num
-                start += 1
+                nums[cur_idx] = num
+                cur_idx += 1
         
-        for i in range(start, n):
-            nums[i] = 0
-        
-            
+        for idx in range(cur_idx, n):
+            nums[idx] = 0
