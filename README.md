@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2470-removing-stars-from-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2470-removing-stars-from-a-string) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Backtracking
 |  |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [1894-merge-strings-alternately](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 ## Counting
 |  |
 | ------- |
@@ -342,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0783-search-in-a-binary-search-tree](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 ## Data Stream
 |  |
 | ------- |
@@ -351,8 +354,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 ## Linked List
 |  |
 | ------- |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+## Rolling Hash
+|  |
+| ------- |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+## Hash Function
+|  |
+| ------- |
+| [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 <!---LeetCode Topics End-->
