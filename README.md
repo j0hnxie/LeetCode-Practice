@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0624-maximum-distance-in-arrays) |
+| [0643-maximum-average-subarray-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0724-find-pivot-index) |
@@ -272,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
+| [0643-maximum-average-subarray-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Memoization
 |  |
