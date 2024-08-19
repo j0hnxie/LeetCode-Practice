@@ -1,11 +1,11 @@
 class Solution:
     def minSteps(self, n: int) -> int:
-        memo = [0] * (n + 1)
+        factor = 2
 
-        for times in range(1, n + 1):
-            for factor in range(2, times + 1):
-                if times % factor == 0:
-                    memo[times] = memo[times // factor] + factor
-                    break
-        
-        return memo[-1]
+        res = 0
+        while n > 1:
+            while n % factor == 0:
+                n //= factor
+                res += factor
+            factor += 1
+        return res
