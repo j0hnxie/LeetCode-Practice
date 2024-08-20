@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
+| [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
+| [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0733-flood-fill) |
@@ -88,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
@@ -152,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
+| [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [1738-maximal-network-rank](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1738-maximal-network-rank) |
