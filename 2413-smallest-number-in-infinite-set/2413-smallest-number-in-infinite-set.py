@@ -2,7 +2,7 @@ class SmallestInfiniteSet:
 
     def __init__(self):
         self.pq = [num for num in range(1, 1001)]
-        self.set = set(self.pq.copy())
+        self.set = set(self.pq)
         heapq.heapify(self.pq)
 
     def popSmallest(self) -> int:
