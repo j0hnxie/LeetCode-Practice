@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1833-find-the-highest-altitude](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1833-find-the-highest-altitude) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -88,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1036-rotting-oranges) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Union Find
 |  |
 | ------- |
@@ -110,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1036-rotting-oranges) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 ## Dynamic Programming
 |  |
