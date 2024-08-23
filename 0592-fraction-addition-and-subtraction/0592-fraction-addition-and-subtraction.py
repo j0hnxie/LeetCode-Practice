@@ -31,6 +31,8 @@ class Solution:
 
         numerator, denominator = numbers[0].split("/")
         numerator, denominator = int(numerator), int(denominator)
+        print(numerator)
+        print(denominator)
         for idx in range(1, n):
             current_numerator, current_denominator = numbers[idx].split("/")
             current_numerator, current_denominator = int(current_numerator), int(current_denominator)
