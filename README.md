@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
+| [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Depth-First Search
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
+| [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -226,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2413-smallest-number-in-infinite-set](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2413-smallest-number-in-infinite-set) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
+| [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Topological Sort
 |  |
