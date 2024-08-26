@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## String
 |  |
 | ------- |
@@ -234,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Topological Sort
 |  |
 | ------- |
@@ -259,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -335,12 +339,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Counting
 |  |
 | ------- |
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -400,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0783-search-in-a-binary-search-tree](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Data Stream
 |  |
 | ------- |
