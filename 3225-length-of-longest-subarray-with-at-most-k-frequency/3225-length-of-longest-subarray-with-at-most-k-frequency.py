@@ -14,8 +14,7 @@ class Solution:
                     break
                 r += 1
             
-                
-            # print(r)
+
             res = max(res, r - l)
             counts[nums[l]] -= 1
         return res
