@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Topological Sort
 |  |
@@ -311,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
 | [0643-maximum-average-subarray-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Memoization
 |  |
 | ------- |
