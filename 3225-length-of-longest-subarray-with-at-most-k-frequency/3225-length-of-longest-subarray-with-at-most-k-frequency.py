@@ -13,8 +13,10 @@ class Solution:
                     counts[num] -= 1
                     break
                 r += 1
-            
 
             res = max(res, r - l)
+
+            if r == n:
+                break
             counts[nums[l]] -= 1
         return res
