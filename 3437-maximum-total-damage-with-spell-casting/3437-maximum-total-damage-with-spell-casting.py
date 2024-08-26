@@ -13,29 +13,15 @@ class Solution:
         memo[0] = freqs[damages[0]] * damages[0]
 
         for idx in range(1, n):
-            memo[idx] = freqs[damages[idx]] * damages[idx]
+            prev_idx = idx - 1
+            while prev_idx >= 0 and (damages[prev_idx] == damages[idx] - 1 or damages[prev_idx] == damages[idx] - 2):
+                prev_idx -= 1
             
-            add = 0
-            lower_limit = damages[idx] - 2
-
-            if damages[idx - 1] < lower_limit:
-                add = max(add, memo[idx - 1])
-            
-            if idx >= 2 and damages[idx - 2] < lower_limit:
-                add = max(add, memo[idx - 2])
-            
-            if idx >= 3 and damages[idx - 3] < lower_limit:
-                add = max(add, memo[idx - 3])
-            
-            if idx >= 4 and damages[idx - 4] < lower_limit:
-                add = max(add, memo[idx - 4])
-            
-            if idx >= 5:
-                add = max(add, memo[idx - 5])
-            
-            memo[idx] += add
+            if prev_idx >= 0:
+                memo[idx] = max(memo[idx - 1], memo[prev_idx] + freqs[damages[idx]] * damages[idx])
+            else:
+                memo[idx] = max(memo[idx - 1], freqs[damages[idx]] * damages[idx])
         
-        print(memo)
         return max(memo)
 
         
