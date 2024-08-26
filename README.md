@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
+| [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Depth-First Search
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0747-min-cost-climbing-stairs) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 ## String
 |  |
 | ------- |
