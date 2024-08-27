@@ -13,7 +13,9 @@ class Solution:
         while pq:
             dist, current, prev = heapq.heappop(pq)
             dist *= -1
-            if dist < distance[current]:
+            if current == end_node:
+                return dist
+            elif dist < distance[current]:
                 continue
 
             for neighbor, prob in adj_list[current]:
