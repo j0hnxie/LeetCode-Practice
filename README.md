@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1036-rotting-oranges) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
+| [1325-path-with-maximum-probability](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1325-path-with-maximum-probability) |
 | [1738-maximal-network-rank](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1738-maximal-network-rank) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
@@ -280,11 +282,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
+| [1325-path-with-maximum-probability](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1325-path-with-maximum-probability) |
 | [2413-smallest-number-in-infinite-set](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2413-smallest-number-in-infinite-set) |
 ## Shortest Path
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0744-network-delay-time) |
+| [1325-path-with-maximum-probability](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1325-path-with-maximum-probability) |
 ## Tree
 |  |
 | ------- |
