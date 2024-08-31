@@ -163,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0273-integer-to-english-words](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0273-integer-to-english-words) |
 | [0345-reverse-vowels-of-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0392-is-subsequence) |
+| [0564-find-the-closest-palindrome](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0664-strange-printer) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
@@ -325,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0273-integer-to-english-words) |
+| [0564-find-the-closest-palindrome](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0650-2-keys-keyboard) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
