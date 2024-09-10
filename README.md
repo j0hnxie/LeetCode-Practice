@@ -170,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0664-strange-printer) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
+| [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
+| [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -414,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0969-number-of-recent-calls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0969-number-of-recent-calls) |
+| [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [2413-smallest-number-in-infinite-set](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2413-smallest-number-in-infinite-set) |
 ## Prefix Sum
 |  |
@@ -432,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0783-search-in-a-binary-search-tree](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0783-search-in-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Data Stream
