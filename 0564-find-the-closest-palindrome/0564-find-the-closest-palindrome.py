@@ -1,45 +1,39 @@
 class Solution:
-    def convert(self, num: int) -> int:
-        s = str(num)
-        n = len(s)
-        l, r = (n - 1) // 2, n // 2
-        s_list = list(s)
-        while l >= 0:
-            s_list[r] = s_list[l]
-            r += 1
-            l -= 1
-        return int("".join(s_list))
-
-    def previous_palindrome(self, num: int) -> int:
-        left, right = 0, num
-        ans = float("-inf")
-        while left <= right:
-            mid = (right - left) // 2 + left
-            palin = self.convert(mid)
-            if palin < num:
-                ans = palin
-                left = mid + 1
-            else:
-                right = mid - 1
-        return ans
-
-    def next_palindrome(self, num: int) -> int:
-        left, right = num, int(1e18)
-        ans = float("-inf")
-        while left <= right:
-            mid = (right - left) // 2 + left
-            palin = self.convert(mid)
-            if palin > num:
-                ans = palin
-                right = mid - 1
-            else:
-                left = mid + 1
-        return ans
+    def duplicateHalf(self, half, isOdd):
+        middle = ""
+        half = str(half)
+        if isOdd:
+            middle = half[-1]
+            half = half[:-1]
+        
+        reverse = half[::-1]
+        result = half + middle + reverse
+        return int(result)
+            
 
     def nearestPalindromic(self, n: str) -> str:
-        num = int(n)
-        a = self.previous_palindrome(num)
-        b = self.next_palindrome(num)
-        if abs(a - num) <= abs(b - num):
-            return str(a)
-        return str(b)
+        sz = len(n) # 4, 5
+        mid = math.ceil(sz / 2)
+        first_half = int(n[:mid])
+
+        candidates = []
+        candidates.append(self.duplicateHalf(first_half, sz % 2))
+        candidates.append(self.duplicateHalf(first_half + 1, sz % 2))
+        candidates.append(self.duplicateHalf(first_half - 1, sz % 2))
+        candidates.append(10 ** (sz - 1) - 1)
+        candidates.append(10 ** sz + 1)
+
+        print(candidates)
+        diff, result = float('inf'), ""
+        current = int(n)
+
+        for candidate in candidates:
+            if candidate == current:
+                continue
+
+            if abs(candidate - current) < diff:
+                diff = abs(candidate - current)
+                result = candidate
+            elif abs(candidate - current) == diff:
+                result = min(result, candidate)
+        return str(result)
