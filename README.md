@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0393-utf-8-validation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0393-utf-8-validation) |
+| [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0624-maximum-distance-in-arrays) |
@@ -143,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0392-is-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0392-is-subsequence) |
+| [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
 | [0542-01-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0664-strange-printer) |
@@ -189,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
+| [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
 ## Graph
 |  |
 | ------- |
@@ -391,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0393-utf-8-validation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0393-utf-8-validation) |
+| [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
 | [0476-number-complement](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0476-number-complement) |
 ## Recursion
 |  |
@@ -476,4 +480,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0856-consecutive-numbers-sum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0856-consecutive-numbers-sum) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
