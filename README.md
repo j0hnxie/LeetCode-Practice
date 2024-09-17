@@ -174,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0664-strange-printer) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -250,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0924-fair-candy-swap](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0924-fair-candy-swap) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
@@ -378,6 +380,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0920-uncommon-words-from-two-sentences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
