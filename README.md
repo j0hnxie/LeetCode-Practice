@@ -214,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2470-removing-stars-from-a-string) |
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Hash Table
 |  |
@@ -426,6 +428,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [2413-smallest-number-in-infinite-set](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2413-smallest-number-in-infinite-set) |
@@ -455,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0969-number-of-recent-calls) |
 ## String Matching
 |  |
