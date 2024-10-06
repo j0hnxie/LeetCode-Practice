@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0072-edit-distance) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0152-maximum-product-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0152-maximum-product-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0241-different-ways-to-add-parentheses) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0043-multiply-strings) |
 | [0068-text-justification](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0071-simplify-path) |
+| [0072-edit-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
