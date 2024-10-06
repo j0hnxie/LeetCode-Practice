@@ -17,4 +17,4 @@ class Solution:
                     memo[idx1][idx2] = max(memo[idx1][idx2], memo[idx1 - 1][idx2 - 1] + 1)
                 else:
                     memo[idx1][idx2] = max(memo[idx1 - 1][idx2], memo[idx1][idx2 - 1])
-        return max(max(row) for row in memo)
+        return memo[-1][-1]
