@@ -14,6 +14,10 @@ class AllOne:
         self.head.next = self.tail
         self.tail.prev = self.head
 
+    def remove(self, cur_node):
+        cur_node.prev.next = cur_node.next
+        cur_node.next.prev = cur_node.prev
+
     def inc(self, key: str) -> None:
         if key in self.map:
             cur_node = self.map[key]
@@ -33,8 +37,7 @@ class AllOne:
             self.map[key] = cur_node.next
 
             if len(cur_node.keys) == 0:
-                cur_node.next.prev = cur_node.prev
-                cur_node.prev.next = cur_node.next
+                self.remove(cur_node)
 
         else:
             if self.head.next.value == 1:
@@ -56,16 +59,11 @@ class AllOne:
         cur_node = self.map[key]
         cur_node.keys.discard(key)
         if cur_node.value == 1:
-            if len(cur_node.keys) == 0:
-                self.head.next = cur_node.next
-                self.head.next.prev = self.head
-            
             del self.map[key]
         else:
             next_value = cur_node.value - 1
             if cur_node.prev.value == next_value:
                 cur_node.prev.keys.add(key)
-                cur_node.keys.discard(key)
             else:
                 new_node = Node(next_value)
                 new_node.prev = cur_node.prev
@@ -75,10 +73,9 @@ class AllOne:
                 new_node.keys.add(key)
 
             self.map[key] = cur_node.prev
-
-            if len(cur_node.keys) == 0:
-                cur_node.next.prev = cur_node.prev
-                cur_node.prev.next = cur_node.next
+        
+        if len(cur_node.keys) == 0:
+            self.remove(cur_node)
         
 
     def getMaxKey(self) -> str:
