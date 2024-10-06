@@ -265,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0127-word-ladder) |
 | [0219-contains-duplicate-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
+| [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0740-delete-and-earn) |
 | [0797-rabbits-in-forest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0797-rabbits-in-forest) |
@@ -453,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
+| [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0860-design-circular-queue](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0860-design-circular-queue) |
 | [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
@@ -498,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0328-odd-even-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0328-odd-even-linked-list) |
+| [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
 | [0860-design-circular-queue](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0860-design-circular-queue) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -521,4 +524,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0473-matchsticks-to-square) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
