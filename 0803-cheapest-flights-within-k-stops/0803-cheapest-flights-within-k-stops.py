@@ -1,3 +1,28 @@
+# class Solution:
+#     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+#         adj_list = defaultdict(list)
+
+#         for frm, to, price in flights:
+#             adj_list[frm].append((to, price))
+
+#         pq = [(0, 0, src)]
+#         dist = [float('inf')] * n
+#         dist[src] = 0
+
+#         while pq:
+#             dist_so_far, stops, node  = heapq.heappop(pq)
+
+#             if node == dst:
+#                 return dist_so_far
+            
+#             if stops > k:
+#                 continue
+            
+#             for nex, price in adj_list[node]:
+#                 dist[nex] = min(dist[nex], dist_so_far + price)
+#                 heapq.heappush(pq, (dist_so_far + price, stops + 1, nex))
+
+#         return dist[dst] if dist[dst] != float('inf') else -1
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         
