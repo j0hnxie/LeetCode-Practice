@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [0924-fair-candy-swap](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0924-fair-candy-swap) |
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
+| [1028-interval-list-intersections](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1036-rotting-oranges) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0392-is-subsequence) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
+| [1028-interval-list-intersections](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1028-interval-list-intersections) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1894-merge-strings-alternately](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
