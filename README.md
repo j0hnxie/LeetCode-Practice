@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0829-subdomain-visit-count](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0829-subdomain-visit-count) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -266,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0890-lemonade-change) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
