@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -497,6 +498,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0724-find-pivot-index) |
 | [1833-find-the-highest-altitude](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1833-find-the-highest-altitude) |
+| [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
 ## Strongly Connected Component
 |  |
 | ------- |
@@ -514,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
 ## Data Stream
 |  |
 | ------- |
