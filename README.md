@@ -215,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1512-design-underground-system](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1512-design-underground-system) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1894-merge-strings-alternately](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1512-design-underground-system](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1512-design-underground-system) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -501,6 +503,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0969-number-of-recent-calls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1512-design-underground-system](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1512-design-underground-system) |
 | [2413-smallest-number-in-infinite-set](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2413-smallest-number-in-infinite-set) |
 ## Prefix Sum
 |  |
