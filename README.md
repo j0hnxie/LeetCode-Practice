@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1036-rotting-oranges) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1325-path-with-maximum-probability](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1349-check-if-it-is-a-straight-line) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1250-longest-common-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1250-longest-common-subsequence) |
+| [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -304,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0999-regions-cut-by-slashes) |
 | [1023-time-based-key-value-store](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
+| [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -338,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [0924-fair-candy-swap](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0924-fair-candy-swap) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
+| [1272-invalid-transactions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1272-invalid-transactions) |
 | [1333-sort-the-jumbled-numbers](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1333-sort-the-jumbled-numbers) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
