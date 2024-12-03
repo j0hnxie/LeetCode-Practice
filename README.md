@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0162-find-peak-element) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
+| [0189-rotate-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0219-contains-duplicate-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0239-sliding-window-maximum) |
@@ -402,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0043-multiply-strings](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0189-rotate-array) |
 | [0241-different-ways-to-add-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0273-integer-to-english-words) |
@@ -433,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0016-3sum-closest](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0016-3sum-closest) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
+| [0189-rotate-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0392-is-subsequence) |
