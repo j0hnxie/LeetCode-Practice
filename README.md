@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1833-find-the-highest-altitude](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1833-find-the-highest-altitude) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2035-count-sub-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2163-kth-distinct-string-in-an-array) |
