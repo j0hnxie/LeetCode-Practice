@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
 ## Depth-First Search
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Topological Sort
 |  |
@@ -497,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0735-asteroid-collision) |
 | [2232-adding-spaces-to-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2232-adding-spaces-to-a-string) |
 | [2470-removing-stars-from-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2470-removing-stars-from-a-string) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Queue
 |  |
 | ------- |
