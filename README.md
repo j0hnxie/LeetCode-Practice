@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0113-path-sum-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0113-path-sum-ii) |
 | [0145-binary-tree-postorder-traversal](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0200-number-of-islands) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0310-minimum-height-trees](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0310-minimum-height-trees) |
 | [0332-reconstruct-itinerary](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0332-reconstruct-itinerary) |
 | [0547-number-of-provinces](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0547-number-of-provinces) |
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0179-largest-number) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0241-different-ways-to-add-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0273-integer-to-english-words) |
 | [0345-reverse-vowels-of-a-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
@@ -516,6 +518,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -597,4 +600,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0432-all-oone-data-structure) |
+## Trie
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
