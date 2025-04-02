@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2472-build-a-matrix-with-conditions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2502-sort-the-people) |
 | [2505-number-of-good-paths](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2505-number-of-good-paths) |
+| [2530-minimize-maximum-of-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2530-minimize-maximum-of-array) |
 | [2664-maximize-greatness-of-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2664-maximize-greatness-of-an-array) |
 | [2685-first-completely-painted-row-or-column](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2685-first-completely-painted-row-or-column) |
 | [2727-number-of-senior-citizens](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2727-number-of-senior-citizens) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [2530-minimize-maximum-of-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2530-minimize-maximum-of-array) |
 | [2869-longest-non-decreasing-subarray-from-two-arrays](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2869-longest-non-decreasing-subarray-from-two-arrays) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## String
@@ -292,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1304-longest-happy-string](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1304-longest-happy-string) |
 | [1612-avoid-flood-in-the-city](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [2530-minimize-maximum-of-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2530-minimize-maximum-of-array) |
 | [2664-maximize-greatness-of-an-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2664-maximize-greatness-of-an-array) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -540,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0724-find-pivot-index) |
 | [1833-find-the-highest-altitude](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1833-find-the-highest-altitude) |
+| [2530-minimize-maximum-of-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2530-minimize-maximum-of-array) |
 | [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
 ## Strongly Connected Component
 |  |
@@ -558,6 +562,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1468-check-if-n-and-its-double-exist](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1612-avoid-flood-in-the-city](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1612-avoid-flood-in-the-city) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2530-minimize-maximum-of-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/2530-minimize-maximum-of-array) |
 | [3245-find-beautiful-indices-in-the-given-array-i](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3245-find-beautiful-indices-in-the-given-array-i) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3643-zero-array-transformation-ii](https://github.com/j0hnxie/LeetCode-Practice/tree/master/3643-zero-array-transformation-ii) |
