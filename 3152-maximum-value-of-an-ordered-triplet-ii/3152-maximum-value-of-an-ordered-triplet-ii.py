@@ -9,7 +9,6 @@ class Solution:
         gap = nums[0] - nums[1]
 
         for k in range(2, n):
-            print(largest, gap, result)
             result = max(result, gap * nums[k])
             gap = max(gap, largest - nums[k])
             largest = max(largest, nums[k])
