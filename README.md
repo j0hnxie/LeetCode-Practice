@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-design-circular-queue](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0860-design-circular-queue) |
 | [0870-magic-squares-in-grid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
+| [0883-car-fleet](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0890-lemonade-change) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [0924-fair-candy-swap](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0924-fair-candy-swap) |
@@ -274,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0883-car-fleet](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0883-car-fleet) |
 | [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -308,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0883-car-fleet) |
 | [0937-online-stock-span](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0937-online-stock-span) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Hash Table
@@ -369,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0876-hand-of-straights) |
+| [0883-car-fleet](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0883-car-fleet) |
 | [0901-advantage-shuffle](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0901-advantage-shuffle) |
 | [0924-fair-candy-swap](https://github.com/j0hnxie/LeetCode-Practice/tree/master/0924-fair-candy-swap) |
 | [1129-longest-string-chain](https://github.com/j0hnxie/LeetCode-Practice/tree/master/1129-longest-string-chain) |
